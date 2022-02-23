@@ -4,7 +4,7 @@
   "description": "watching",
   "main": "discord.js",
   "scripts": {
-    "start": "npm run discord.js"
+    "start": "node discord.js"
   },
   "author": "Entytaiment25",
   "license": "ISC",
