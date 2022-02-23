@@ -9,9 +9,9 @@ const hook = new Webhook({
 hook.setUsername(`${process.env.WEBHOOK_NAME}`);
 hook.setAvatar(`${process.env.WEBHOOK_AVATAR}`);
 
-const http = require('http');
+const https = require('https');
 
-let req = http.get(`http://api.altv.mp/server/${process.env.ALTV_MASTERLISTID}`, function(res) {
+let req = https.get(`https://api.altv.mp/server/${process.env.ALTV_MASTERLISTID}`, function(res) {
 	let data = '',
 		json_data;
 
