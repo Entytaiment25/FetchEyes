@@ -1,4 +1,13 @@
 {
+  "name": "fetcheyes",
+  "version": "1.0.0",
+  "description": "watching",
+  "main": "discord.js",
+  "scripts": {
+    "start": "npm run discord.js"
+  },
+  "author": "Entytaiment25",
+  "license": "ISC",
   "dependencies": {
     "discord-webhook-node": "^1.1.8",
     "discord.js": "^12.5.3",
