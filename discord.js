@@ -3,6 +3,7 @@ require('dotenv').config()
 const WEBHOOK_URL = process.env.WEBHOOKURL
 const hook = new Webhook({
     url: 'https://discord.com/api/webhooks/943496681033453588/hsYLy3Wauo_QDaw4YeXZzOi0S5WAhPsEpgTMiMVB-Nk7vAXxQFibpLbwv7LHz76qWMin',
+    avatar_url": '',
     throwErrors: true,
     retryOnLimit: false
 });
