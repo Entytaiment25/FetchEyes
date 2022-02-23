@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "discord.js": "^12.5.3",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.0",
+    "webhook-discord": "^3.7.8"
+  }
+}
